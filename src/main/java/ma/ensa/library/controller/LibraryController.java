@@ -15,7 +15,7 @@ public class LibraryController {
 
     @Autowired
     private LibraryService libraryService;
-
+    // Test d'automatisation Jenkins
     @GetMapping("/books")
     public List<Book> getAllBooks() {
         return libraryService.getAllBooks();
